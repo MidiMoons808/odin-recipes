@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+
+
+body{
+    background-color: #F2274C;
+    margin-top: 70px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    color: black;
+    }
+
+img{
+    border-radius: 100%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-shrink: 0;
+   
+}
+figcaption{
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+   
+        
+}
+
+.title,h3 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+.container{
+    background-color:#d99d8f;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 25px;
+    border:#d99441 solid 9px;
+    border-radius: 19px;
+    }
+
+hr{
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.caption{
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    font-family: 'Amethysta', serif;
+}
+h3{
+    text-align: center;
+}
+.ingredients{
+    background-color: #FBFAF5;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    flex-shrink: 0;
+}
+.list-ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+ol, li{
+     margin-bottom: 10px;
+     font-family: 'Amethysta', serif;
+}
+
+.instruction-list{
+    margin: auto;
+}
+
+.instructions{
+    background-color: #FBFAF5;
+    border-radius: 20px;
+    padding: 10px;
+}
